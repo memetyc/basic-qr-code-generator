@@ -1,12 +1,47 @@
-# React + Vite
+# QR Kod Oluşturucu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, basit ve kullanıcı dostu bir QR kod oluşturma uygulamasıdır. React ve Vite kullanılarak geliştirilmiştir.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Metin girişi ile anında QR kod oluşturma
+- Yüksek kaliteli SVG formatında QR kod indirme
+- Responsive tasarım
+- Kullanıcı dostu arayüz
 
-## Expanding the ESLint configuration
+## Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- qrcode.react
+
+## Kurulum
+
+```bash
+# Projeyi klonlayın
+git clone https://github.com/yourusername/qrcode.git
+
+# Proje dizinine gidin
+cd qrcode
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
+npm run dev
+```
+
+## Kullanım
+
+1. Metin kutusuna QR kodunuzda görünmesini istediğiniz içeriği girin
+2. QR kod otomatik olarak oluşturulacaktır
+3. "QR Kodu İndir" butonuna tıklayarak PNG formatında indirin
+
+## Canlı Demo
+
+Uygulamayı [https://basic-qr-code-generator-three.vercel.app/](https://basic-qr-code-generator-three.vercel.app/) adresinden test edebilirsiniz.
+
+## Lisans
+
+MIT
