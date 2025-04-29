@@ -204,7 +204,7 @@ const handleThemeChange = () => {
           <div className='divide-base-300 border-t'></div>
           <div className='flex items-center gap-3 '>
             <label htmlFor="logo" className="text-lg font-bold">Logo</label>
-            <input type="file" name="logo" id="logo" onChange={handleLogoChange} className="border rounded-md p-2" accept="image/*" />
+            <input type="file" name="logo" id="logo" onChange={handleLogoChange} className=" file-input file-input-ghost " accept="image/*" />
           </div>
         </div>
 
